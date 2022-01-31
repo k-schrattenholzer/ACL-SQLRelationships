@@ -5,4 +5,4 @@ SELECT address.address_id
 FROM address
 INNER JOIN city
 ON address.city_id = city.city_id
-WHERE city = 'Dundee';
+WHERE city.city = 'Dundee';
