@@ -2,7 +2,7 @@
 -- LEFT JOIN FROM inventory to film and to rental
 -- use WHERE IS NULL
 
-SELECT *
+SELECT film.title
 FROM inventory
 LEFT JOIN film
 ON inventory.film_id = film.film_id
